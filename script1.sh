@@ -1,10 +1,7 @@
 #!/bin/bash
 
-echo "This is from another script"
-hostname
-=======
 echo -e "\v\v======================= PRINTING MACHINE NAME ========================\v\v"
-hostnamcectl 
+hostnamectl 
 echo -e "\v\v======================= PRINTING DISK USAGE ========================\v\v"
 df -h 
 echo -e "\v\v"
