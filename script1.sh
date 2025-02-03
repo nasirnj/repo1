@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "This is from Web-hook"
+echo "This is from another script"
 hostname
 df -h 
