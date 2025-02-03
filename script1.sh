@@ -1,6 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 echo "This is from another script"
 hostname
 =======
