@@ -7,4 +7,7 @@ hostname
 echo ""
 echo ""
 df -h 
+echo ""
+echo ""
+
 uptime
