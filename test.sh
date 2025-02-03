@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This is a test script being executed"
+echo "This is a test script being executed at node $HOSTNAME"
 echo ""
 echo ""
 hostname
