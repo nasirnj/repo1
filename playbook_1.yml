@@ -1,6 +1,6 @@
 ---
 - name: This is to install telnet
-  hosts: 10.0.0.91
+  hosts: all
   tasks:
     - name: Installing Telnet
       yum:
