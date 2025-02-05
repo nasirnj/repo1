@@ -9,5 +9,4 @@ echo ""
 df -h 
 echo ""
 echo ""
-
 uptime
