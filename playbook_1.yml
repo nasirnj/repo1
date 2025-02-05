@@ -1,8 +1,15 @@
 ---
 - name: Installing Telnet
   hosts: dev
-  tasks: 
+  tasks:
     - name: Installing Telnet
       yum:
         name: telnet
         state: present
+
+    - name: Validating if Telnet is installed
+      shell: rpm -qa telnet
+      register: RPM_OUTPUT
+
+    - debug:
+        var: RPM_OUTPUT
