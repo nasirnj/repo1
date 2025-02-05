@@ -11,3 +11,4 @@ echo ""
 echo ""
 uptime
 echo ""
+echo i love you
