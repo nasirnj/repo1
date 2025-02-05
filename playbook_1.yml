@@ -1,8 +1,8 @@
 ---
-- name: This is to install telnet
-  hosts: all
-  tasks:
+- name: Installing Telnet
+  hosts: dev
+  tasks: 
     - name: Installing Telnet
       yum:
         name: telnet
-	state: present
+        state: present
