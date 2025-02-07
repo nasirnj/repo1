@@ -13,3 +13,8 @@
 
     - debug:
         var: RPM_OUTPUT
+
+    - name: Installing net-tools pkg
+      yum:
+        name: net-tools
+        state: present
