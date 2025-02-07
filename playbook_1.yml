@@ -2,10 +2,10 @@
 - name: Installing Telnet
   hosts: dev
   tasks:
-    - name: Installing Telnet
+    - name: removing Telnet
       yum:
         name: telnet
-        state: present
+        state: absent
 
     - name: Validating if Telnet is installed
       shell: rpm -qa telnet
